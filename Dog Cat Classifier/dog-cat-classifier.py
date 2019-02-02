@@ -2,8 +2,6 @@ from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from keras.layers.normalization import BatchNormalization
 from keras.preprocessing.image import ImageDataGenerator
-#import numpy as np
-#from keras.preprocessing import image
 
 # Convolutional Layers 
 classifier = Sequential()
